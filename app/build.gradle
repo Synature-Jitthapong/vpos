@@ -16,22 +16,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets {
-        main {
-            manifest.srcFile 'src/main/AndroidManifest.xml'
-            java.srcDirs = ['src/main/java', 'src/main/java-gen']
-            res.srcDirs = ['src/main/res']
-        }
-    }
-    productFlavors {
-    }
 }
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:design:22.2.0'
     compile 'com.android.support:cardview-v7:22.2.0'
     compile 'com.android.support:recyclerview-v7:22.2.0'
-    compile 'de.greenrobot:eventbus:2.4.0'
-    compile 'com.google.android.gms:play-services:7.5.0'
 }
