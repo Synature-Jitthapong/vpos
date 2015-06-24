@@ -27,6 +27,13 @@ import java.util.HashMap;
 import java.util.List;
 
 
+/**
+ * Class นี้ใช้เป็นตัวอย่างการเกียกใช้ SQLite Database ซึ่งผมใช้วิธีเก็บ db ไว้ที่ External Storage
+ * โดยการ Override SQLiteOpenHelper
+ * initial db อยู่ใน assets
+ *
+ * ตัวอย่างดูจาก method loadProductDept ครับ
+ */
 public class MainActivity extends AppCompatActivity { // use AppCompatActivity instead ActionBarActivity
 
     private List<HashMap<String, String>> mProductDepts;
