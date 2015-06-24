@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LevelTextPrint">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/LevelTextPrint.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

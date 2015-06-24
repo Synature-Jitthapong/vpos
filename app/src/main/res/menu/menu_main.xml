@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vtec.j1tth4.vtecpos.MainActivity">
+
+
+    <item android:id="@+id/action_utility"
+        android:title="Utility"
+        app:showAsAction="always|withText">
+        <menu>
+
+            <item android:id="@+id/action_setup_shop"
+                android:title="Setup Shop">
+
+            </item>
+
+            <item android:id="@+id/action_setup_receipt"
+                android:title="Setup Receipt">
+
+            </item>
+
+            <item android:id="@+id/action_add_product_group"
+                android:title="Add Product Group">
+
+            </item>
+
+            <item android:id="@+id/action_add_product_dept"
+                android:title="Add Product Dept">
+
+            </item>
+            <item android:id="@+id/action_add_product"
+                android:title="Add Product">
+
+            </item>
+
+            <item android:id="@+id/action_add_staff"
+                android:title="Add Staff">
+
+            </item>
+        </menu>
+
+    </item>
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
